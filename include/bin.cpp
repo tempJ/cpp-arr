@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "arr.h"
+#include "bin.h"
 // using namespace std;
 
 bool read_bin(std::string path, unsigned char **data, int *len){

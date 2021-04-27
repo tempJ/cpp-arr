@@ -1,1 +1,6 @@
-# cpp-arr
+### cpp-arr
+
+```#!/bin/bash
+
+make
+make clean```

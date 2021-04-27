@@ -6,7 +6,7 @@ TARGET		= app
 
 INC		= -Iinclude
 
-OBJS		= main.o ./include/timer.o ./include/arr.o
+OBJS		= main.o ./include/timer.o ./include/bin.o
 # HEAD		= timer.h arr.h
 SRCS 		= $(OBJS:.o=.cpp)
 
