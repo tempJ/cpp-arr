@@ -47,6 +47,11 @@
         "stdexcept": "c",
         "streambuf": "c",
         "typeinfo": "c",
-        "cstring": "c"
+        "cstring": "c",
+        "thread": "cpp",
+        "future": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "iomanip": "cpp"
     }
 }

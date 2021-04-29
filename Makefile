@@ -6,7 +6,7 @@ TARGET		= app
 
 INC		= -Iinclude
 
-OBJS		= main.o ./include/timer.o ./include/bin.o
+OBJS		= main.o ./include/timer.o ./include/bin.o ./include/data.o
 # HEAD		= timer.h arr.h
 SRCS 		= $(OBJS:.o=.cpp)
 
@@ -19,7 +19,7 @@ SRCS 		= $(OBJS:.o=.cpp)
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CXX) -o $@ $^ $(INC)
+	$(CXX) -pthread -o $@ $^ $(INC)
 
 # main.o: main.cpp $(HEAD)
 # timer.o: timer.cpp
